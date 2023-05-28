@@ -1,0 +1,93 @@
+@media only screen and (max-width: 700px) {
+
+       .break-mobile {
+      display: block;
+    }
+  
+  
+  #header {
+    background-image: url(images/trees_for_mob.png);
+  }
+  .header-text {
+    padding-top: 150px;
+    font-size: 16px;
+    text-align: left;
+  }
+  .header-text h1 {
+    font-size: 35px;
+    margin-top: 100px;
+    margin-left: 10px;
+  }
+
+  .header-text h3 {
+    font-size: 18px;
+    margin-top: 20px;
+   margin-left: 10px;
+   text-align: left;
+   display: inline-block;
+  }
+  nav .fas {
+    display: block;
+    font-size: 25px;
+    position: absolute;
+    top: 25px;
+    right: 35px;
+    cursor: pointer;
+  }
+  nav ul.transparent {
+    background: #000000;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: #000000;
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px;
+    z-index: 2;
+    transition: right 0.5s;
+  }
+  nav ul li {
+    display: block;
+    margin: 18px;
+  }
+  nav ul .fas {
+    display: none;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+  }
+  nav ul .fas.active {
+    display: block;
+  }
+  .sub-title {
+    font-size: 40px;
+  }
+  .about-col-1,
+  .about-col-2 {
+    flex-basis: 100%;
+  }
+
+  .about-col-1 {
+    margin-bottom: 30px;
+  }
+  .about-col-2 {
+    font-size: 14px;
+  }
+  .tab-links {
+    font-size: 16px;
+    margin-right: 20px;
+  }
+  .contact-left,
+  .contact-right {
+    flex-basis: 100%;
+  }
+  .copyright {
+    font-size: 14px;
+  }
+}
